@@ -7,24 +7,24 @@
 <p align="center">A Windows video player with a video assistant you can talk to.</p>
 
 <p align="center">
-  <a href="https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview">Download for Windows</a>　
+  <a href="https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe">Download for Windows</a>　
   <a href="docs/USAGE.en.md">User guide</a>　
   <a href="https://github.com/Pumnn1ayLee/PomiPlayer/issues/new/choose">Report an issue</a>　
   <a href="README.md">简体中文</a>
 </p>
 
-![PomiPlayer in dark mode](docs/screenshots/pomiplayer-dolomites-dark.png)
-
-PomiPlayer gives most of the window to your video. The assistant folds away, and playback controls hide when you are watching. It supports light and dark themes, subtitles, audio tracks, playback speed and custom shortcuts. You can also find a scene by asking for it.
-
-## Download
+## Assets
 
 **0.1.0 Preview for Windows x64, about 121 MB.** Currently tested on Windows 11.
 
-[Download installer](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe)　
+[**PomiPlayer-0.1.0-Setup-x64.exe**](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe)　
 [Release notes](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview)
 
 Choose a writable installation folder and run the installer. No administrator access is needed. Settings and caches stay in the player folder and survive uninstallation. This preview is not signed yet, so Windows may display a publisher warning.
+
+![PomiPlayer in dark mode](docs/screenshots/pomiplayer-dolomites-dark.png)
+
+PomiPlayer gives most of the window to your video. The assistant folds away, and playback controls hide when you are watching. It supports light and dark themes, subtitles, audio tracks, playback speed and custom shortcuts. You can also find a scene by asking for it.
 
 ## Ask about what you are watching
 

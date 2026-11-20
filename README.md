@@ -7,24 +7,24 @@
 <p align="center">Windows 视频播放器，带一个可以对话的视频助手。</p>
 
 <p align="center">
-  <a href="https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview">下载 Windows 版</a>　
+  <a href="https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe">下载 Windows 版</a>　
   <a href="docs/USAGE.md">使用指南</a>　
   <a href="https://github.com/Pumnn1ayLee/PomiPlayer/issues/new/choose">反馈问题</a>　
   <a href="README.en.md">English</a>
 </p>
 
-![PomiPlayer 深色界面](docs/screenshots/pomiplayer-dolomites-dark.png)
-
-PomiPlayer 的主要空间留给视频。右侧助手可以收起，播放时控制栏自动隐藏。支持深浅主题、字幕、音轨、倍速和快捷键，也可以直接用一句话查找片段。
-
-## 下载
+## Assets
 
 **0.1.0 Preview，Windows x64，约 121 MB。** 当前在 Windows 11 上测试。
 
-[下载安装包](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe)　
+[**PomiPlayer-0.1.0-Setup-x64.exe**](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe)　
 [更新说明](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview)
 
 选择一个可写文件夹安装即可，不需要管理员权限。设置和缓存放在播放器目录里，卸载时保留。下载后直接运行安装程序；当前预览版尚未签名，Windows 可能显示发布者提醒。
+
+![PomiPlayer 深色界面](docs/screenshots/pomiplayer-dolomites-dark.png)
+
+PomiPlayer 的主要空间留给视频。右侧助手可以收起，播放时控制栏自动隐藏。支持深浅主题、字幕、音轨、倍速和快捷键，也可以直接用一句话查找片段。
 
 ## 看视频，也可以问视频
 
