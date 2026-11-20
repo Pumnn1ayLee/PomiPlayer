@@ -59,4 +59,4 @@ See the [user guide](docs/USAGE.en.md) for details. The mountain footage is by Z
 
 This is an early preview. Please report problems in [Issues](https://github.com/Pumnn1ayLee/PomiPlayer/issues/new/choose), with the version, reproduction steps and relevant system information. Remove keys and private content from logs and screenshots. Use [private reporting](https://github.com/Pumnn1ayLee/PomiPlayer/security/advisories/new) for security vulnerabilities.
 
-This repository hosts releases and feedback. PomiPlayer's core source is not public. Third-party components retain their own licenses; see [third-party information](docs/THIRD_PARTY.md) and [NOTICE](NOTICE.md).
+This repository hosts releases and feedback. PomiPlayer's core source is not public. See the [privacy policy (Chinese)](docs/PRIVACY.md) for data handling. Third-party components retain their own licenses; see [third-party information](docs/THIRD_PARTY.md) and [NOTICE](NOTICE.md).

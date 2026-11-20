@@ -59,4 +59,4 @@ PomiPlayer 的主要空间留给视频。右侧助手可以收起，播放时控
 
 这是早期预览版。遇到问题，请在 [Issues](https://github.com/Pumnn1ayLee/PomiPlayer/issues/new/choose) 留下版本、复现步骤和必要的环境信息。发送日志或截图前，请删掉密钥和私人内容。安全漏洞请通过[私密报告](https://github.com/Pumnn1ayLee/PomiPlayer/security/advisories/new)提交。
 
-本仓库用于版本发布和反馈，播放器核心源码暂不公开。第三方组件保留各自的许可证，见[第三方说明](docs/THIRD_PARTY.md)和[权利说明](NOTICE.md)。
+本仓库用于版本发布和反馈，播放器核心源码暂不公开。数据处理方式见[隐私政策](docs/PRIVACY.md)。第三方组件保留各自的许可证，见[第三方说明](docs/THIRD_PARTY.md)和[权利说明](NOTICE.md)。
