@@ -1,6 +1,6 @@
 # 使用指南
 
-PomiPlayer 当前处于 0.1.0 预览阶段。公开安装包准备完成后会出现在 [Releases](https://github.com/Pumnn1ayLee/PomiPlayer/releases)；请以具体版本说明为准。
+下载 [0.1.0 Preview 安装包](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview)。这个版本仍在完善中，已知问题和安装说明会写在发布页。
 
 ## 安装与播放
 

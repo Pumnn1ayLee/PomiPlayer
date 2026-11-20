@@ -1,12 +1,12 @@
-# 第三方组件 / Third-party components
+# 第三方组件
 
-PomiPlayer 的自有程序代码不在本仓库公开。第三方组件由各自项目维护，其许可证与 PomiPlayer 的权利说明分别适用。
+PomiPlayer 使用以下第三方组件。各组件保留原作者的版权和许可证；播放器自有代码的权利说明不改变这些许可。
 
-## 首个公开版本的准备状态
+## 0.1.0 Preview
 
-0.1.0 安装包目前只作为维护者的 Release 草稿保存，**尚未对公众提供下载**。现有验证包保留了许可证、Qt SBOM 和来源索引，但来源链接清单本身不等于完整的对应源码材料。公开二进制前，需按实际包内文件核对相符源码、构建资料及必要通知。
+安装目录的 `licenses` 保存许可原文、Qt SBOM 和来源索引。[Releases](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview) 另外提供同一版本的许可资料包，便于在下载播放器前查阅。
 
-| 组件 | 当前验证版本与用途 | 上游 |
+| 组件 | 版本与用途 | 上游 |
 | --- | --- | --- |
 | Qt | 6.10.0，界面和网络，以动态库使用 | [Qt LGPL 义务](https://www.qt.io/licensing/open-source-lgpl-obligations)、[版本源码](https://download.qt.io/archive/qt/6.10/6.10.0/submodules/) |
 | libmpv | 0.42.0，官方 Windows x64 LGPL 构建，播放与解码 | [发行版及构建说明](https://github.com/mpv-player/mpv/releases/tag/v0.42.0)、[对应构建脚本](https://github.com/mpv-player/mpv/blob/v0.42.0/ci/build-mingw64.sh) |
@@ -15,12 +15,12 @@ PomiPlayer 的自有程序代码不在本仓库公开。第三方组件由各自
 | Microsoft Visual C++ runtime | 应用本地运行库 | [再分发说明](https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution) |
 | NSIS | 安装器生成工具 | [项目及许可](https://nsis.sourceforge.io/License) |
 
-上述列表是面向用户的摘要，不替代实际分发所附的完整第三方通知及依赖清单。标准包不附带语言、视觉或语音模型权重；可选本地 AI 组件及其依赖另行处理，不在当前公开仓库中提供。
+标准包不含模型权重、CUDA 或本地语言模型运行库。表格不列举各运行库内部的全部依赖，具体文件以安装包清单及随附通知为准。
 
-## 源码与权利边界
+## 尚待补齐的材料
 
-在满足全部适用 LGPL 条件时，使用 LGPL Qt 可以保留应用源码不公开；这不免除第三方源码、通知、调试及动态库替换等相应要求。不得以保护 PomiPlayer 自有代码为由限制第三方许可证允许的权利。
+**目前还没有提供完整的第三方对应源码和构建材料套件。** 现有来源索引不等于对应源码本身，尤其还需核对 libmpv 的链接依赖、FFmpeg full build 的依赖和构建细节。此预览版不应被理解为已经完成全部第三方分发要求的确认。
 
-当前核对还包括 libmpv 的链接依赖和独立 FFmpeg full build。普通上游首页、缺少版本对应的链接或自有程序“闭源”说明，不能替代需要提供的材料。
+LGPL 组件适用的调试、重新链接及兼容动态库替换权利不受 PomiPlayer 自有代码保护措施限制。自有代码暂不公开，不代表第三方组件也可免除其源码和通知义务。
 
-PomiPlayer does not publish its proprietary source in this repository. Third-party components retain their own licenses. The 0.1.0 installer is currently held in a maintainer-only draft release, not offered as a public download. Matching source and build materials must be checked against the actual bundled components before public binary distribution. Existing source references are not presented as a complete corresponding-source bundle.
+The installer contains third-party license texts, Qt SBOM files and source references. A separate notices archive is available with the release. **A complete corresponding-source and build-materials bundle has not yet been supplied**, including the remaining checks for libmpv's linked dependencies and the FFmpeg full build. Source references are not claimed to be that bundle. Rights granted by third-party licenses remain unaffected.

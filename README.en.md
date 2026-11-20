@@ -1,79 +1,63 @@
 <p align="center">
-  <img src="assets/pomiplayer.svg" width="72" height="72" alt="PomiPlayer logo">
+  <img src="assets/pomiplayer.svg" width="72" height="72" alt="PomiPlayer">
 </p>
 
 <h1 align="center">PomiPlayer</h1>
 
-<p align="center">A Windows video player with an optional video assistant.</p>
+<p align="center">A Windows video player with a video assistant you can talk to.</p>
 
 <p align="center">
-  <a href="https://github.com/Pumnn1ayLee/PomiPlayer/releases">Releases</a>　
+  <a href="https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview">Download for Windows</a>　
   <a href="docs/USAGE.en.md">User guide</a>　
   <a href="https://github.com/Pumnn1ayLee/PomiPlayer/issues/new/choose">Report an issue</a>　
   <a href="README.md">简体中文</a>
 </p>
 
-![PomiPlayer playing 4K Dolomites footage with its collapsible assistant; Chinese interface shown](docs/screenshots/pomiplayer-dolomites-dark.png)
+![PomiPlayer in dark mode](docs/screenshots/pomiplayer-dolomites-dark.png)
 
-PomiPlayer keeps the video at the center of the experience. Playback controls appear when needed, the assistant folds away, and the interface offers a restrained blue-and-white theme and a near-black dark theme.
+PomiPlayer gives most of the window to your video. The assistant folds away, and playback controls hide when you are watching. It supports light and dark themes, subtitles, audio tracks, playback speed and custom shortcuts. You can also find a scene by asking for it.
 
-Watch local videos, find dialogue, explore scenes, generate subtitles, or ask a question unrelated to the video.
+## Download
 
-## Release status
+**0.1.0 Preview for Windows x64, about 121 MB.** Currently tested on Windows 11.
 
-**0.1.0 preview. The first public release is being prepared.** There is no public installer download yet. The installer and SHA-256 checksums will be available in [Releases](https://github.com/Pumnn1ayLee/PomiPlayer/releases) after third-party distribution materials have been checked.
+[Download installer](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe)　
+[Release notes](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview)　
+[SHA-256](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe.sha256)
 
-This is a product, release and feedback repository. **It does not contain PomiPlayer's application source code and is not an open-source project.** See [NOTICE](NOTICE.md) for rights information. Third-party components retain their own licenses.
+Choose a writable installation folder. No administrator access is needed. Settings and caches stay in the player folder and survive uninstallation. The installer is not signed yet; download it from this repository and check its hash.
 
-## Features
+## Ask about what you are watching
 
-| Feature | What it offers |
-| --- | --- |
-| Video playback | Local files, drag and drop, speed controls, audio and subtitle selection, aspect ratio, fullscreen, frame stepping and replay after playback ends. |
-| Find a scene | Jump to a timestamp or search subtitle phrases. Connect a model service for questions about the video's content. |
-| Video questions | Use available subtitles or authorized sampled frames. Video overviews organize scenes chronologically with clickable timestamps. |
-| Subtitle generation | Choose SRT or VTT and a destination before transcription. Saved subtitles load automatically. A compatible speech model is required. |
-| Optional AI | Connect your own cloud service, or provide a local runtime and model. Ordinary playback needs neither an AI model nor an account. |
-| Interface | Light and dark themes, customizable shortcuts, a compact context menu and nine interface languages with live switching. |
+Open the assistant to find dialogue, ask about a frame, summarize a video, or talk about something else.
 
-Try a timestamp such as `00:18`, ask what is visible in the current frame, request a chronological overview, or start a general conversation. Time and playback commands do not require AI. Subtitle search needs subtitles; content questions and transcription need the relevant models or services.
+```text
+Jump to 00:18
+Find the scene with “signal”
+What is on screen right now?
+Summarize this video with key moments and timestamps
+```
 
-New answers default to the interface language. An explicit request for another output language takes precedence. Image understanding requires an image-capable model and permission to send sampled frames.
+Video overviews put scenes in time order with buttons that take you to each one. Frame analysis uses samples, so it can miss brief actions.
 
-## Getting started
+Timestamp navigation and subtitle keyword search work without AI. Content questions need a model service configured in Settings. Local inference needs a runtime and model you provide. Cloud frame questions also require image support and separate permission to send sampled frames. The standard installer includes no model weights or API key.
 
-Once the first public installer is available:
+## Subtitles
 
-1. Download the Windows x64 installer and checksum from [Releases](https://github.com/Pumnn1ayLee/PomiPlayer/releases).
-2. Choose a writable folder, such as `D:\Apps\PomiPlayer`. Administrator access is not required. Settings and caches stay inside the player folder.
-3. Open a video. Configure a model service only if you want content questions, or select a speech model for subtitle transcription.
+Ask to generate subtitles, choose SRT or VTT, then pick a save location. The default is the video's folder. Finished subtitles load automatically and can be searched in the assistant. Transcription requires a compatible Whisper GGML speech model.
 
-The standard installer includes no model weights, cloud account or API key. GPU inference components are separate from the standard package; consult the release notes for availability. Uninstallation preserves personal settings, caches and models you added.
+## Make it yours
 
-The currently validated platform is **Windows 11 x64**. Local AI resource requirements depend on the model, context and image budget. Other Windows versions and ARM64 are outside the current validation scope.
+The context menu has playback speed, aspect ratio, audio and subtitle controls, frame stepping and screenshots. After a video ends, press Space or Play to start again.
 
-See the [user guide](docs/USAGE.en.md) for configuration and shortcuts.
+Settings include shortcuts, subtitle styling and assistant parameters. Interface languages are Simplified Chinese, Traditional Chinese, English, Japanese, Korean, French, German, Spanish and Brazilian Portuguese. Switching needs no restart, and new answers follow the selected language.
 
-## Light and dark
+![PomiPlayer in light mode](docs/screenshots/pomiplayer-dolomites-light.png)
 
-![PomiPlayer's light theme with Dolomites footage; Chinese interface shown](docs/screenshots/pomiplayer-dolomites-light.png)
+See the [user guide](docs/USAGE.en.md) for details. The mountain footage is by Zlatin Georgiev on Pexels; see [media credits](docs/MEDIA_CREDITS.md).
 
-Available interface languages: Simplified Chinese, Traditional Chinese, English, Japanese, Korean, French, German, Spanish and Brazilian Portuguese. Switch from the home toolbar or Settings without restarting.
+## Feedback
 
-Screenshots show the actual application playing footage by [Zlatin Georgiev on Pexels](https://www.pexels.com/video/breathtaking-view-of-the-dolomite-mountains-italy-15708456/). See [media credits](docs/MEDIA_CREDITS.md) for the source, license and capture details.
+This is an early preview. Please report problems in [Issues](https://github.com/Pumnn1ayLee/PomiPlayer/issues/new/choose), with the version, reproduction steps and relevant system information. Remove keys and private content from logs and screenshots. Use [private reporting](https://github.com/Pumnn1ayLee/PomiPlayer/security/advisories/new) for security vulnerabilities.
 
-## Data and limitations
-
-- Playback, timestamp navigation and subtitle keyword search work offline.
-- Cloud questions send your question and relevant subtitle context to the service you configure. Sending sampled frames requires separate permission.
-- Service credentials are protected with Windows DPAPI. This repository contains no personal settings, playback history, subtitle files or video indexes.
-- Video understanding uses samples and retrieved context. It can miss brief events or misinterpret a scene. A timestamp links to supporting evidence, not a guarantee of complete frame-by-frame understanding.
-- Transcription quality and speed depend on the audio, language, model and hardware. Respect the licenses of your media and models.
-
-## Feedback and rights
-
-Use the [issue templates](https://github.com/Pumnn1ayLee/PomiPlayer/issues/new/choose) for reproducible bugs and feature requests. Remove credentials, private paths and sensitive subtitles before posting. Do not upload full private videos.
-
-Report security issues through [private vulnerability reporting](https://github.com/Pumnn1ayLee/PomiPlayer/security/advisories/new); see [SECURITY](SECURITY.md).
-
-PomiPlayer uses Qt, libmpv, FFmpeg, whisper.cpp and other third-party components. See [third-party information](docs/THIRD_PARTY.md) and [NOTICE](NOTICE.md). Public visibility does not grant an open-source license to PomiPlayer's proprietary code, branding or documentation. Third-party license rights remain unaffected.
+This repository hosts releases and feedback. PomiPlayer's core source is not public. Third-party components retain their own licenses; see [third-party information](docs/THIRD_PARTY.md) and [NOTICE](NOTICE.md).

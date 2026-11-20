@@ -1,6 +1,6 @@
 # User guide
 
-PomiPlayer is a 0.1.0 preview. Public installers will appear in [Releases](https://github.com/Pumnn1ayLee/PomiPlayer/releases) once ready. Follow the notes for the version you download.
+Download the [0.1.0 Preview installer](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview). The preview is still being improved; check its release notes for installation details and known issues.
 
 ## Playback
 
