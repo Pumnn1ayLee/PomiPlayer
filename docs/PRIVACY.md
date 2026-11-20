@@ -60,6 +60,8 @@ GitHub、Microsoft Store 及用户自行选择的模型服务分别适用其自�
 
 发布者：PummyLee
 
-一般隐私咨询可通过 [PomiPlayer 项目反馈入口](https://github.com/Pumnn1ayLee/PomiPlayer/issues)联系。请先只描述问题类型，勿在公开留言中提供个人数据；如需提供敏感资料，请先联系开发者约定合适的沟通方式。
+隐私联系邮箱：[lif42299@gmail.com](mailto:lif42299@gmail.com)。关于本政策、个人信息处理或删除请求，可通过该邮箱联系。请先说明问题类型，不要发送 API 密钥或与请求无关的敏感资料。
+
+一般问题也可通过 [PomiPlayer 项目反馈入口](https://github.com/Pumnn1ayLee/PomiPlayer/issues)联系。GitHub Issue 是公开的，请勿在其中提供私人视频、密钥或其他个人数据。
 
 涉及信息泄露或安全漏洞时，请使用 [GitHub 私密安全报告](https://github.com/Pumnn1ayLee/PomiPlayer/security/advisories/new)。
