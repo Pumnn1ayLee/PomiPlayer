@@ -1,0 +1,45 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem / 提交可复现的问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿提交 API 密钥、私人视频、敏感字幕或完整个人路径。
+        Remove credentials, private media, sensitive subtitles and personal paths before posting.
+  - type: input
+    id: version
+    attributes:
+      label: Version / 版本
+      placeholder: 0.1.0 preview
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened? / 出现了什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      placeholder: Describe the smallest sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 运行环境
+      description: Windows version, display scaling, GPU and driver. For AI issues, add provider or model name; never include the API key.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or sanitized logs / 截图或脱敏日志
+      description: Optional. A short non-sensitive sample is preferable to a full video.

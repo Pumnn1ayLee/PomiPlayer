@@ -1,0 +1,23 @@
+# Public product repository: deny everything except approved publication files.
+*
+!/.github/
+!/.github/ISSUE_TEMPLATE/
+!/assets/
+!/docs/
+!/docs/screenshots/
+!/README.md
+!/README.en.md
+!/NOTICE.md
+!/SECURITY.md
+!/docs/USAGE.md
+!/docs/USAGE.en.md
+!/docs/THIRD_PARTY.md
+!/assets/pomiplayer.svg
+!/docs/screenshots/pomiplayer-playback.png
+!/docs/screenshots/pomiplayer-assistant-dark.png
+!/docs/screenshots/pomiplayer-assistant-light.png
+!/.github/ISSUE_TEMPLATE/bug_report.yml
+!/.github/ISSUE_TEMPLATE/feature_request.yml
+!/.github/ISSUE_TEMPLATE/config.yml
+!/.gitignore
+!/.gitattributes
