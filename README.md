@@ -13,7 +13,7 @@
   <a href="README.en.md">English</a>
 </p>
 
-![PomiPlayer 深色界面，右侧为可收起的视频助手](docs/screenshots/pomiplayer-assistant-dark.png)
+![PomiPlayer 播放多洛米蒂山脉 4K 航拍，右侧为可收起的视频助手](docs/screenshots/pomiplayer-dolomites-dark.png)
 
 PomiPlayer 把主要空间留给视频。播放控制按需出现，视频助手可以随时收起；浅色采用克制的蓝白配色，深色采用近黑背景。
 
@@ -67,11 +67,11 @@ PomiPlayer 把主要空间留给视频。播放控制按需出现，视频助手
 
 ## 两种主题，同一套操作
 
-![PomiPlayer 蓝白浅色界面](docs/screenshots/pomiplayer-assistant-light.png)
+![PomiPlayer 蓝白浅色界面与多洛米蒂山脉航拍](docs/screenshots/pomiplayer-dolomites-light.png)
 
 支持简体中文、繁体中文、English、日本語、한국어、Français、Deutsch、Español 和 Português (Brasil)。在首页右上角或设置中切换，无需重启。
 
-截图来自 PomiPlayer 实际窗口，使用项目生成的合成样片，不包含第三方电影画面或个人资料。
+截图来自 PomiPlayer 实际播放窗口。演示视频由 [Zlatin Georgiev](https://www.pexels.com/video/breathtaking-view-of-the-dolomite-mountains-italy-15708456/) 拍摄，来自 Pexels；素材来源、许可与截图说明见 [演示素材](docs/MEDIA_CREDITS.md)。
 
 ## 数据与使用边界
 

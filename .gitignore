@@ -12,10 +12,11 @@
 !/docs/USAGE.md
 !/docs/USAGE.en.md
 !/docs/THIRD_PARTY.md
+!/docs/MEDIA_CREDITS.md
 !/assets/pomiplayer.svg
-!/docs/screenshots/pomiplayer-playback.png
-!/docs/screenshots/pomiplayer-assistant-dark.png
-!/docs/screenshots/pomiplayer-assistant-light.png
+!/docs/screenshots/pomiplayer-dolomites.png
+!/docs/screenshots/pomiplayer-dolomites-dark.png
+!/docs/screenshots/pomiplayer-dolomites-light.png
 !/.github/ISSUE_TEMPLATE/bug_report.yml
 !/.github/ISSUE_TEMPLATE/feature_request.yml
 !/.github/ISSUE_TEMPLATE/config.yml

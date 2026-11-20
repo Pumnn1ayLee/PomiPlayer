@@ -11,3 +11,9 @@ This repository provides product information, releases and issue tracking for Po
 Public visibility or a downloadable installer does not itself grant permission to modify or sublicense PomiPlayer's proprietary materials or use its branding. Application usage terms are those supplied with the applicable release. This notice does not restrict rights granted by third-party licenses, including applicable rights to use, modify, debug, relink or redistribute those components.
 
 Third-party components and separately acquired model weights remain subject to their respective licenses. Applicable license texts and notices must be preserved with distributions.
+
+## 演示素材 / Showcase footage
+
+产品截图中的第三方视频画面另受原素材许可约束，不属于 PomiPlayer 自有品牌或图形。本说明不变更原素材权利，也不表示素材作者对本产品的背书。来源及许可见 [演示素材](docs/MEDIA_CREDITS.md)。
+
+Third-party footage visible in product screenshots retains its original license and is not PomiPlayer-owned branding or artwork. This notice does not alter those rights or imply endorsement by the creator. See [media credits](docs/MEDIA_CREDITS.md).

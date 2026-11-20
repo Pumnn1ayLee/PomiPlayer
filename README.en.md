@@ -13,7 +13,7 @@
   <a href="README.md">简体中文</a>
 </p>
 
-![PomiPlayer with its collapsible assistant; Chinese interface shown](docs/screenshots/pomiplayer-assistant-dark.png)
+![PomiPlayer playing 4K Dolomites footage with its collapsible assistant; Chinese interface shown](docs/screenshots/pomiplayer-dolomites-dark.png)
 
 PomiPlayer keeps the video at the center of the experience. Playback controls appear when needed, the assistant folds away, and the interface offers a restrained blue-and-white theme and a near-black dark theme.
 
@@ -56,11 +56,11 @@ See the [user guide](docs/USAGE.en.md) for configuration and shortcuts.
 
 ## Light and dark
 
-![PomiPlayer's light theme; Chinese interface shown](docs/screenshots/pomiplayer-assistant-light.png)
+![PomiPlayer's light theme with Dolomites footage; Chinese interface shown](docs/screenshots/pomiplayer-dolomites-light.png)
 
 Available interface languages: Simplified Chinese, Traditional Chinese, English, Japanese, Korean, French, German, Spanish and Brazilian Portuguese. Switch from the home toolbar or Settings without restarting.
 
-Screenshots show the actual application using a project-generated test video, with no third-party movie footage or personal data.
+Screenshots show the actual application playing footage by [Zlatin Georgiev on Pexels](https://www.pexels.com/video/breathtaking-view-of-the-dolomite-mountains-italy-15708456/). See [media credits](docs/MEDIA_CREDITS.md) for the source, license and capture details.
 
 ## Data and limitations
 
