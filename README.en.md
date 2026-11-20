@@ -22,10 +22,9 @@ PomiPlayer gives most of the window to your video. The assistant folds away, and
 **0.1.0 Preview for Windows x64, about 121 MB.** Currently tested on Windows 11.
 
 [Download installer](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe)　
-[Release notes](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview)　
-[SHA-256](https://github.com/Pumnn1ayLee/PomiPlayer/releases/download/v0.1.0-preview/PomiPlayer-0.1.0-Setup-x64.exe.sha256)
+[Release notes](https://github.com/Pumnn1ayLee/PomiPlayer/releases/tag/v0.1.0-preview)
 
-Choose a writable installation folder. No administrator access is needed. Settings and caches stay in the player folder and survive uninstallation. The installer is not signed yet; download it from this repository and check its hash.
+Choose a writable installation folder and run the installer. No administrator access is needed. Settings and caches stay in the player folder and survive uninstallation. This preview is not signed yet, so Windows may display a publisher warning.
 
 ## Ask about what you are watching
 
